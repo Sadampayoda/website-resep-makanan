@@ -5,8 +5,8 @@ export const Card = (props) => {
     const {title, description, color_link,link, title_link} = props;
     return (
         <>
-            <div className="card" style={{width: "18rem;"}}>
-                <Img src="..." className="card-img-top" alt="..."/>
+            <div className="card" style={{width: "30rem;"}}>
+                {/* <Img src="..." className="card-img-top" alt="..."/> */}
                     <div className="card-body">
                         <Title title={title}></Title>
                         <Descript description={description}></Descript>

@@ -11,7 +11,7 @@ export const Nav = (props) => {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav ms-auto">
                 <a className="nav-link active" href="#">Welcome</a>
-                <a className="nav-link" href="#">Resep</a>
+                <a className="nav-link" href="/menu">Menu</a>
                 <a className="nav-link" href="#">Ciptakan resep</a>
                 <a className="nav-link disabled" aria-disabled="true">Login</a>
               </div>
